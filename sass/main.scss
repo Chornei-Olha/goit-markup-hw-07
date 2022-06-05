@@ -1,21 +1,11 @@
 //utils
-@import "./utils/vars";
-@import "./utils/visually-hidden";
+@import "./utils/module";
 
 //base
-@import "./base/container";
+@import "./base/module";
 
 //components
-@import "./components/button";
-@import "./components/logo";
-@import "./components/modal-form";
+@import "./components/module";
 
-//layouts
-@import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/benefits";
-@import "./layouts/about";
-@import "./layouts/employees";
-@import "./layouts/clients";
-@import "./layouts/examples";
-@import "./layouts/footer";
+//layout
+@import "./layout/module";

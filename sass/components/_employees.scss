@@ -1,3 +1,5 @@
+//Наша команда
+
 .peoples {
   background-color: #f5f4fa;
 }
@@ -64,12 +66,12 @@
   cursor: pointer;
   background-color: $white-color;
   fill: var(--icon-color);
-  transition-duration: 250ms;
+  transition-duration: $transition-duration;
   transition-timing-function: $option;
-}
 
-.social-link:hover,
-.social-link:focus {
-  background-color: $text-decoration-color;
-  fill: $white-color;
+  &:hover,
+  &:focus {
+    background-color: $text-decoration-color;
+    fill: $white-color;
+  }
 }

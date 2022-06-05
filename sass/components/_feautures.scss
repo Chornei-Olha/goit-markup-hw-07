@@ -1,3 +1,5 @@
+//Особенности
+
 .container__item {
   width: 270px;
 }
@@ -8,7 +10,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--title-text-color);
+  color: $title-text-color;
   text-transform: uppercase;
 }
 
@@ -30,5 +32,5 @@
   margin-bottom: 30px;
   border: 1px solid transparent;
   border-radius: 4px;
-  background-color: var(--btn-bg-color);
+  background-color: $btn-bg-color;
 }

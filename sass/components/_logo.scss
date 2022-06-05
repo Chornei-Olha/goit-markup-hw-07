@@ -1,3 +1,5 @@
+//лого
+
 .studio-header {
   color: #000;
   font-family: "Raleway";
@@ -19,7 +21,7 @@
   color: $text-decoration-color;
   text-decoration: none;
   transition-property: color;
-  transition-duration: 250ms;
+  transition-duration: $transition-duration;
   transition-timing-function: $option;
 
   &:hover {
