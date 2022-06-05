@@ -65,7 +65,7 @@
   align-items: center;
   cursor: pointer;
   background-color: $white-color;
-  fill: var(--icon-color);
+  fill: $icon-color;
   transition-duration: $transition-duration;
   transition-timing-function: $option;
 
